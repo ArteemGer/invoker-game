@@ -1,0 +1,316 @@
+@font-face {
+    font-family: dota2;
+    src: url(./font/OPTIwtcGoudy-Medium.otf);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: dota2;
+    letter-spacing: 0.5px;
+}
+body{
+    background-color: rgb(27, 27, 27);
+}
+
+.container{
+    color: white;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.spells p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.spells img{
+    width: 20px;
+    height: 20px;
+}
+.controls img{
+    width: 20px;
+    height: 20px;
+}
+.controls p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.button-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.button-group button{
+    width: 100px;
+}
+.title{
+    display: flex;
+    justify-content:center;    
+}
+.button-group p{
+    margin: 5px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quas{
+    color: #72C3FC;
+}
+.wex{
+    color: #CE72FC;
+}
+.exort{
+    color: #FCCA72;
+}
+.controls h3{
+    padding: 0;
+    margin: 0;
+}
+.controls{
+    margin-bottom: 10px;
+    border: 1px rgba(255, 255, 255, 0.300) solid;
+    border-radius: 7px;
+    padding: 10px;
+}
+.stats h3{
+    padding: 0;
+    margin: 0;
+}
+.stats{
+    border: 1px rgba(255, 255, 255, 0.300) solid;
+    border-radius: 7px;
+    padding: 10px;
+}
+.spells h3{
+    padding: 0;
+    margin: 0;
+}
+.spells{
+    border: 1px rgba(255, 255, 255, 0.300) solid;
+    border-radius: 7px;
+    padding: 10px;
+}
+.start{
+    text-transform: uppercase;
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    border: 4px grey solid;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.orbs{
+    margin-top: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.orbs div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(129, 129, 129);
+    border-radius: 50px;
+}
+.buttom{
+    margin-top: 20px;
+    background-image: url(/img/bottom-bg.jpg);
+    width: 600px;
+    height: 161px;
+    position: relative;
+}
+
+.first{
+    position: absolute;
+    left: 22px;
+    top: 29px;
+}
+.second{
+    position: absolute;
+    left: 120px;
+    top: 29px;
+}
+.third{
+    position: absolute;
+    left: 218px;
+    top: 29px;
+}
+.fourth{
+    position: absolute;
+    left: 316px;
+    top: 29px;
+}
+.fifth{
+    position: absolute;
+    left: 415px;
+    top: 29px;
+}
+.sixth{
+    position: absolute;
+    left: 514px;
+    top: 29px;
+}
+.buttom img{
+    width: 72px;
+    height: 72px;
+}
+.hotkey{
+    background-color: rgb(46, 46, 46);
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    top: -13px;
+    left: -10px;
+    color: #bbb2ad;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+.quasOrb{
+    background: url('/img/quas.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wexOrb{
+    background: url('/img/wex.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.exortOrb{
+    background: url('/img/exort.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.pipa{
+    width: 256px;
+    height: 144px;
+    background: url('/img/invoker_full.png');
+}
+
+
+.cold-snap{
+    width: 72px;
+    height: 72px;
+    background: url('/img/cold_snap.png')no-repeat;
+    background-size: contain;
+}
+.ghost-walk{
+    width: 72px;
+    height: 72px;
+    background: url('/img/ghost_walk.png')no-repeat;
+    background-size: contain;
+}
+.ice-wall{
+    width: 72px;
+    height: 72px;
+    background: url('/img/ice_wall.png')no-repeat;
+    background-size: contain;
+}
+.emp{
+    width: 72px;
+    height: 72px;
+    background: url('/img/emp.png')no-repeat;
+    background-size: contain;
+}
+.tornado{
+    width: 72px;
+    height: 72px;
+    background: url('/img/tornado.png') no-repeat;
+    background-size: contain;
+}
+.alacrity{
+    width: 72px;
+    height: 72px;
+    background: url('/img/alacrity.png')no-repeat;
+    background-size: contain;
+}
+.sun-strike{
+    width: 72px;
+    height: 72px;
+    background: url('/img/sun_strike.png')no-repeat;
+    background-size: contain;
+}
+.forge-spirit{
+    width: 72px;
+    height: 72px;
+    background: url('/img/forge_spirit.png')no-repeat;
+    background-size: contain;
+}
+.chaos-meteor{
+    width: 72px;
+    height: 72px;
+    background: url('/img/chaos_meteor.png')no-repeat;
+    background-size: contain;
+}
+.deafening-blast{
+    width: 72px;
+    height: 72px;
+    background: url('/img/deafening_blast.png')no-repeat;
+    background-size: contain;
+}
+.none{
+    display: none;
+}
+.timer{
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 20px;
+    border-radius: 30px;
+    background-color: rgb(1, 182, 31);
+}
+.true{
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 600px;
+    height: 390px;
+    background-color: rgb(20, 20, 20);
+    border: white 5px solid;
+    border-radius: 20px;
+}
+.lose{
+    display: none;
+}
+.true button{
+    font-size: 20px;
+    color: white;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(27, 27, 27);;
+    border: white 5px solid;
+    border-radius: 10px;
+}
+.about{
+    max-width: 600px;
+    margin-top: 10px;
+    border: 1px rgba(255, 255, 255, 0.300) solid;
+    border-radius: 7px;
+    padding: 10px;
+}
+

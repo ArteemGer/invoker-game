@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="/script.js"></script>
+    <title>Invoker Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-sidebar">
+        <div class="controls">
+          <h3>CONTROLS</h3>
+          <p><span class="quas">Q</span> - Quas <img src="/img/quas.png" alt="" /></p>
+          <p><span class="wex">W</span> - Wex <img src="/img/wex.png" alt="" /></p>
+          <p><span class="exort">E</span> - Exort <img src="/img/exort.png" alt="" /></p>
+          <p>R - Invoke <img src="/img/invoke.png" alt="" /></p>
+          <p>D - Spell 1</p>
+          <p>F - Spell 2</p>
+        </div>
+        <div class="stats">
+          <h3>STATS</h3>
+          <p class="keysP"></p>
+          <p class="spellsI"></p>
+          <p class="spellsU"></p>
+          <p class="stage"></p>
+        </div>
+      </div>
+      <main>
+        <div class="lose true">
+          <h1 class="result">Ваш результат: 0 сек</h1>
+          <button class="more">Еще раз!!</button>
+        </div>
+        <h1 class="title">INVOKER GAME</h1>
+        <div class="pipa" id="trueSpell"></div>
+        <div class="interface">
+          <div class="content">
+            <button class="start">START GAME (PRESS ENTER)</button>
+            <div class="timer none"></div>
+            <div class="orbs">
+              <div class="orb orb1"></div>
+              <div class="orb orb2"></div>
+              <div class="orb orb3"></div>
+            </div>
+          </div>
+          <div class="buttom">
+            <div class="first">
+              <div class="hotkey hotkey1">Q</div>
+              <img src="/img/quas.png" alt="" />
+            </div>
+            <div class="second">
+              <div class="hotkey hotkey2">W</div>
+              <img src="/img/wex.png" alt="" />
+            </div>
+            <div class="third">
+              <div class="hotkey hotkey3">E</div>
+              <img src="/img/exort.png" alt="" />
+            </div>
+            <div class="fourth">
+              <div class="hotkey hotkey4">D</div>
+              <img src="/img/blank.gif" alt="" />
+            </div>
+            <div class="fifth">
+              <div class="hotkey hotkey5">F</div>
+              <img src="/img/blank.gif" alt="" />
+            </div>
+            <div class="sixth">
+              <div class="hotkey hotkey6">R</div>
+              <img src="/img/invoke.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="about">
+            <h3>ПРО ИГРУ</h3>
+            <p>
+              Invoker game - это захватывающая игра, в которой игрок проверяет
+              свои знания заклинаний и умения использовать их на время. 
+            </p>
+            <p>Это веб-приложение было вдохнавленно игрой DOTA 2 и персонажем Invoker</p>
+            <p>
+              В начале каждого уровня игроку показывается заклинание,
+              которое он должен произнести и использовать. Игрок должен знать, как произнести и использовать заклинание
+              . После того, как игрок использовал заклинания, ему дается следующее. Игра продалжается до тех пор, пока игрок не сможет использовать заклинание вовремя
+            </p>
+          </div>
+      </main>
+      <div class="rigth-bar">
+        <div class="spells">
+          <h3>SPELLS</h3>
+          <p>
+            <img src="/img/cold_snap.png" alt="" />Cold Snap -
+            <span class="quas">Q</span><span class="quas">Q</span
+            ><span class="quas">Q</span>
+          </p>
+          <p>
+            <img src="/img/ghost_walk.png" alt="" />Ghost walk -
+            <span class="quas">Q</span> <span class="quas">Q</span>
+            <span class="wex">W</span>
+          </p>
+          <p>
+            <img src="/img/ice_wall.png" alt="" />Ice wall -
+            <span class="quas">Q</span> <span class="quas">Q</span>
+            <span class="exort">E</span>
+          </p>
+          <p>
+            <img src="/img/emp.png" alt="" />EMP - <span class="wex">W</span>
+            <span class="wex">W</span> <span class="wex">W</span>
+          </p>
+          <p>
+            <img src="/img/tornado.png" alt="" />Tornado -
+            <span class="wex"><span class="wex">W</span></span>
+            <span class="wex">W</span> <span class="quas">Q</span>
+          </p>
+          <p>
+            <img src="/img/alacrity.png" alt="" />Alacrity -
+            <span class="wex">W</span> <span class="wex">W</span>
+            <span class="exort">E</span>
+          </p>
+          <p>
+            <img src="/img/sun_strike.png" alt="" />Sun strike -
+            <span class="exort">E</span> <span class="exort">E</span>
+            <span class="exort">E</span>
+          </p>
+          <p>
+            <img src="/img/forge_spirit.png" alt="" />Forge spirit -
+            <span class="exort">E</span> <span class="exort">E</span>
+            <span class="quas">Q</span>
+          </p>
+          <p>
+            <img src="/img/chaos_meteor.png" alt="" />Chaos meteor -
+            <span class="exort">E</span> <span class="exort">E</span>
+            <span class="wex">W</span>
+          </p>
+          <p>
+            <img src="/img/deafening_blast.png" alt="" />Deafening blast -
+            <span class="quas">Q</span> <span class="wex">W</span>
+            <span class="exort">E</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
